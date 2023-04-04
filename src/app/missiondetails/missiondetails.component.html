@@ -1,0 +1,32 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <img src="{{ missionDetails.links.mission_patch_small }}" />
+    <mat-card-title class="card-title"
+      >Mission - {{ missionDetails.mission_name }}</mat-card-title
+    >
+    <mat-card-subtitle
+      >Launch year: {{ missionDetails.launch_year }}</mat-card-subtitle
+    >
+    <mat-card-title class="card-title">Rocket</mat-card-title>
+    <mat-card-subtitle
+      >Name: {{ missionDetails.rocket.rocket_name }}</mat-card-subtitle
+    >
+    <mat-card-subtitle
+      >Type: {{ missionDetails.rocket.rocket_type }}</mat-card-subtitle
+    >
+    <mat-card-title class="card-title">Launch Site</mat-card-title>
+    <mat-card-subtitle
+      >Name: {{ missionDetails.launch_site.site_name_long }}</mat-card-subtitle
+    >
+  </mat-card-header>
+
+  <mat-card-content>
+    <p class="card-detail-title">
+      <b>Details:</b>
+    </p>
+
+    <p>
+      {{ missionDetails.details }}
+    </p>
+  </mat-card-content>
+</mat-card>

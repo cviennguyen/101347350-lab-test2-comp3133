@@ -1,0 +1,24 @@
+.example-card {
+  max-width: 400px;
+  background-color: burlywood;
+  margin: 0 auto
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f43f5e
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.card-detail-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f43f5e
+}

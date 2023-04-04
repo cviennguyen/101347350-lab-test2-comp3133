@@ -1,0 +1,83 @@
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container h1 {
+  text-align: center;
+}
+.mission-card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #93c5fd;
+  list-style-type: none
+}
+.mission-header {
+  display: flex;
+  align-items: center;
+}
+.mission-year {
+  color: #64748b
+}
+.mission-patch {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.mission-btn {
+  margin-left: auto;
+  margin-top: 10px;
+  background-color: #1d4ed8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.search {
+  margin: 10px;
+  padding: 10px;
+  margin-left: 200px;
+}
+
+.search-input {
+  padding: 5px 10px;
+}
+
+.search-btn {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #1d4ed8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.no-data {
+  text-align: center;
+  margin-top: 20px;
+  color: #64748b;
+  font-size: 30px;
+  font-weight: bold
+}
+
+.mission-btn {
+  background-color: #1d4ed8;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-decoration: none; 
+  width: 100px;
+  text-align: center
+}
+
+.mission-btn a {
+  color: #fff;
+  text-decoration: none;
+}
